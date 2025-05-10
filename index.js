@@ -60,6 +60,10 @@ const server = http.createServer(async (req, res) => {
   }
 });
 
-server.listen(config.port, () => {
-  console.log(`Server has been started on port ${config.port}`);
-});
+if (require.main === module) {
+  server.listen(config.port, () => {
+    console.log(`Server has been started on port ${config.port}`);
+  });
+}
+
+module.exports = server;
