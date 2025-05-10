@@ -1,0 +1,16 @@
+{
+  "users": {
+    "20e4fca7-0e48-4a7b-ada9-0b81f497f96b": {
+      "id": "20e4fca7-0e48-4a7b-ada9-0b81f497f96b",
+      "username": "dog",
+      "age": "13",
+      "hobbies": "eating"
+    },
+    "f85bae78-04b7-4008-bad9-4b883c251730": {
+      "id": "f85bae78-04b7-4008-bad9-4b883c251730",
+      "username": "cat",
+      "age": "11",
+      "hobbies": "eating"
+    }
+  }
+}
